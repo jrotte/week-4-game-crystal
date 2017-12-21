@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Crystal Collector</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>	
+<body>
+	<div class="header">
+		<h1>Crystal Collector</h1>
+	</div>
+	<div class="instructions">
+		<h3>Game Instructions</h3>
+		</br>
+		<ol>
+			<ul> - Based on the Needed Collection Value generated, collect the necessary quantity of crystals below</ul>
+			<br>
+			<ul> - Each crystal is tied to a different individual value upon clicking it that adds to Your Collection Value</ul>
+			<br>
+			<ul> - If you collect the Needed Collection Value, you win and can start packing your bags for paradise!</ul>	
+			<br>
+			<ul> - Beware: you will lose the game if you go over the Needed Collection Value so choose wisely . . .</ul>
+		</ol>
+	</div>
+	<div class="numberToMatch">
+		<h2>Needed Collection Value:
+			<span id= "randomNumber"></span>
+		</h2>
+	</div>
+	<div class="winsAndLosses">
+		<h2>Wins:
+			<span id= "numberWins"></span>
+			</br>
+			Losses: 
+			<span id= "numberLosses"></span>
+		</h2>
+	</div>
+	<div class="gems">
+		<img src="assets/images/blued.png" class=gemImage id="one" alt="Blue Diamond">
+		<img src="assets/images/greend.png" class=gemImage id="two" alt="Green Diamond">
+		<img src="assets/images/redd.png" class=gemImage id= "three" alt="Red Diamond">
+		<img src="assets/images/yellowd.png" class=gemImage id= "four" alt="Yellow Diamond">
+	</div>
+	<div class="userTotal">
+		<h2>Your Collection Value:
+			<span id="finalTotal"></span>
+		</h2>
+	</div>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
